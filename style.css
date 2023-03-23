@@ -1,0 +1,67 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+}
+
+.main_photo {
+    width: 350px;
+}
+
+.main_inner {
+    padding-left: 70px;
+    color: #121212;
+}
+
+.main_inner-title {
+    margin-bottom: 20px;
+    font-size: 48px;
+    color: #FFFFFF;
+}
+
+.main_inner-city {
+    display: inline-block;
+    margin-bottom: 50px;
+    color: #FFFFFF;
+}
+
+.main_inner-item {
+    margin-bottom: 15px;
+    color: #121212
+}
+
+.main_inner-advantes {
+    display: flex;
+    margin-bottom: 50px;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.list_item {
+    display: block;
+    background-color: #414141;
+    padding: 14px 55px;
+    border-radius: 45px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 32px;
+
+}
+
+.main_inner-description {
+    width: 500px;
+    height: 50px;
+    color: rgb(19, 1, 19);
+}
+
+body {
+    background-image: url(IMG_5362.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
